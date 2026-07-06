@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+#header {
+    font-size: 3rem;
+    color:rgba(192, 216, 216, 0.9);
+    margin-top: 50px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: rgba(25, 51, 51, 1);
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    /* margin-bottom: 30vmin; */
+}
+
+.hide-msg {
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    padding: 20px;
+    z-index: 101;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    background-color: #fff;
+}
+
+#predictMsg {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #000000;
+    border: none;
+    width: 90%;
+    height: 30%;
+    margin: none;
+}
+
+#closeBtn {
+    border: none;
+    border-radius: 15px;
+    height: 30%;
+    width: 30%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(192, 216, 216, 0.9);
+    background-color: #4682A9 ;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.hide-popup {
+    display: none;
+}
